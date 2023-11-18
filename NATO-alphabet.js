@@ -52,3 +52,5 @@ let table = {
 function to_nato(words) {
   return words.split('').filter(c => c !== ' ').map(c => table[c.toUpperCase()] || c).join(' ');
 }
+
+// or
